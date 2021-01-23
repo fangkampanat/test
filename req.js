@@ -1,5 +1,3 @@
-https://chrome.google.com/webstore/detail/script-runner-pro/cofhgpcbaidjkjfbfglfhlklnbhajhpg
-
 // ==UserScript==
 // @name AutoBuyThisshop
 // @namespace Script Runner Pro
