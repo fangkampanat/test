@@ -18,15 +18,15 @@ window.onload = function afterWebPageLoad() {
                     isBuyNow = true;
             }
         } else if (window.location.href.indexOf("https://thisshop.com/app/shopcart/") > -1) {
-            if (!isChangePM && document.getElementsByClassName('stage-term icofont ').length > 0) {
+           /* if (!isChangePM && document.getElementsByClassName('stage-term icofont ').length > 0) {
                     document.querySelectorAll('div.stage-term.icofont')[6].click();
                     isChangePM = true;
-            } else {
+            } else { */
                 if (!isBuyComplete) {
                     document.querySelectorAll('div.order-submit-btn.js-buy')[0].click();
                     isBuyComplete = true;
                 }
-            }
+            //}
         }
     }
 };
