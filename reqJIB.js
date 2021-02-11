@@ -14,7 +14,7 @@ window.onload = function afterWebPageLoad() {
     var isPress2 = false;
     var isPress3 = false;
     var isPress4 = false;
-    setInterval(autoBuy, 1000);
+    setInterval(autoBuy, 500);
     function autoBuy() {
             if (document.querySelectorAll("a.btn.btn-primary.btn-md.cart-link").length > 0) {
                 if (!isPress1) {
