@@ -14,12 +14,7 @@ window.onload = function afterWebPageLoad() {
         if (window.location.href.indexOf("thisshop.com/item/") > -1) {
                     document.querySelectorAll('button#buyNow.button.orange')[0].click()
         } else if (window.location.href.indexOf("thisshop.com/app/shopcart/") > -1) {
-           /* if (!isChangePM && document.getElementsByClassName('stage-term icofont ').length > 0) {
-                    document.querySelectorAll('div.stage-term.icofont')[6].click();
-                    isChangePM = true;
-            } else { */
                     document.querySelectorAll('div.order-submit-btn.js-buy')[0].click();
-            //}
         }
     }
 };
