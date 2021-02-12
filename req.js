@@ -11,9 +11,7 @@
 window.onload = function afterWebPageLoad() {
     setInterval(autoBuy, 500);
     function autoBuy() {
-        if (window.location.href.indexOf("thisshop.com/item/") > -1) {
-                    document.querySelectorAll('button#buyNow.button.orange')[0].click()
-        } else if (window.location.href.indexOf("thisshop.com/app/shopcart/") > -1) {
+        if (window.location.href.indexOf("thisshop.com/app/shopcart/") > -1) {
                     document.querySelectorAll('div.order-submit-btn.js-buy')[0].click();
         }
     }
