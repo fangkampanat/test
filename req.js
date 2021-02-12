@@ -7,7 +7,6 @@
 // @match https://www.thisshop.com/app/shopcart/*
 // @grant none
 // ==/UserScript==
-//https://www.thisshop.com/app/shopcart/confirm.html?cc=<itemId>&cq=1
 window.onload = function afterWebPageLoad() {
     setInterval(autoBuy, 500);
     function autoBuy() {
