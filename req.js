@@ -8,7 +8,7 @@
 // @grant none
 // ==/UserScript==
 window.onload = function afterWebPageLoad() {
-    setInterval(autoBuy, 500);
+    setInterval(autoBuy, 100);
     function autoBuy() {
         if (window.location.href.indexOf("thisshop.com/app/shopcart/") > -1) {
                     document.querySelectorAll('div.order-submit-btn.js-buy')[0].click();
